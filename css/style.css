@@ -1,0 +1,54 @@
+ul, li {
+	list-style-type: none;
+	font-size: 0px;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+}
+
+li, section {
+	display: inline-block;
+}
+
+ul {
+	display: block;
+}
+
+.main {
+	width: 50%;
+	height: 500px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #e3cbb1;
+}
+
+.board {
+	margin: 14px;
+	width: 95%;
+	height: 464px;
+	border: 4px solid black;
+}
+
+.line-odd, .line-even {
+	width: 100%;
+	height: 12.5%;
+}
+
+.list-item {
+	width: 12.5%;
+	height: 100%;
+}
+
+.line-odd > .list-item:nth-child(odd) {
+	background-color: #160d10;
+}
+
+.line-even > .list-item:nth-child(even) {
+	background-color: #160d10;
+}
